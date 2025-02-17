@@ -30,7 +30,7 @@ The model is deployed in real-time, where it continuously captures video frames,
 ## How to Run
 
 1. **Clone the repository:**
-BGR
+
 2. **Setup**: Open the Colab notebook, and install necessary dependencies. The code will handle data preprocessing, model training, and testing.
 
 3. **Run the Notebook**: Execute each cell in the notebook. The notebook will guide you through the steps for training the model and performing real-time gesture detection.
@@ -39,7 +39,7 @@ BGR
 
 The model achieved an **accuracy of 92%** for recognizing gestures. The performance was evaluated based on real-time webcam input, and the system successfully predicted gestures like "hello," "thanks," and "I love you."
 
-### Diagrams
+### Visual Outputs
 
 #### **Figure 1: Conversion of image from BGR to RGB for holistic model processing**
 This figure demonstrates the initial step in preprocessing where an image is converted from BGR (default OpenCV color format) to RGB (used by the model).
