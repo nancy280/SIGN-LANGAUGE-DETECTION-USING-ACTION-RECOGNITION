@@ -29,10 +29,8 @@ The model is deployed in real-time, where it continuously captures video frames,
 
 ## How to Run
 
-1. Clone the repository or open the Colab notebook directly:
-
-   - [**Action Detection Refined.ipynb**](https://colab.research.google.com/your-notebook-link)
-
+1. **Clone the repository:**
+BGR
 2. **Setup**: Open the Colab notebook, and install necessary dependencies. The code will handle data preprocessing, model training, and testing.
 
 3. **Run the Notebook**: Execute each cell in the notebook. The notebook will guide you through the steps for training the model and performing real-time gesture detection.
@@ -46,43 +44,40 @@ The model achieved an **accuracy of 92%** for recognizing gestures. The performa
 #### **Figure 1: Conversion of image from BGR to RGB for holistic model processing**
 This figure demonstrates the initial step in preprocessing where an image is converted from BGR (default OpenCV color format) to RGB (used by the model).
 
-![Figure 1](images/figure_1_bgr_to_rgb.png)
+![Figure 1](images/bgr.jpg)
 
 #### **Figure 2: Keypoint detection to draw landmarks and connections**
 The keypoints extracted from the image are used to detect and connect landmarks to help identify the hand gesture.
 
-![Figure 2](images/figure_2_keypoint_detection.png)
+![Figure 2](images/keypoint.jpg)
 
 #### **Figure 3: Custom style landmark creation to represent face, hands, and body posture**
 In this step, custom landmarks are created to represent the various regions, including the face, hands, and body posture.
 
-![Figure 3](images/figure_3_custom_landmarks.png)
+![Figure 3](images/custom.jpg)
 
 #### **Figure 4: Proposed Methodology**
 The proposed methodology outlines the entire process, from data collection to real-time gesture recognition using the trained model.
 
-![Figure 4](images/figure_4_proposed_methodology.png)
+![Figure 4](images/proposed.jpg)
 
 #### **Figure 5: Visualization of KeyPoints extracted from the recorded image**
 This diagram illustrates the process of visualizing the keypoints that have been extracted from the recorded image using MediaPipe.
 
-![Figure 5](images/figure_5_keypoint_visualization.png)
+![Figure 5](images/kvisual.jpg)
 
-#### **Figure 6: Model Performance Comparison Across Metrics**
+#### **Figure 6: Real time prediction results**
+This diagram illustrates the real time testing of the pretrained model on various different emotions
+
+![Figure 5](images/output.jpg)
+
+#### **Figure 7: Model Performance Comparison Across Metrics**
 This chart compares various metrics of the model, showcasing the model's performance across different evaluation criteria.
 
-![Figure 6](images/figure_6_model_performance_metrics.png)
+![Figure 6](images/radar.jpg)
 
-#### **Figure 7: Model Performance Comparison Across Accuracy**
+#### **Figure 8: Model Performance Comparison Across Accuracy**
 This graph compares the model's accuracy during training and testing phases, demonstrating its predictive accuracy for sign language gestures.
 
-![Figure 7](images/figure_7_model_performance_accuracy.png)
+![Figure 7](images/bar.jpg)
 
-## Links
-
-- **Colab Notebook**: [Action Detection Refined.ipynb](https://colab.research.google.com/your-notebook-link)
-- **GitHub Repository**: [https://github.com/yourusername/sign-language-recognition](https://github.com/yourusername/sign-language-recognition)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
